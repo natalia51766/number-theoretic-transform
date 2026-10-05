@@ -1,0 +1,14 @@
+[project]
+name = "number-theoretic-transform"
+version = "0.1.0"
+description = "FFT over a finite field supporting exact integer convolution when inputs are bounded."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
