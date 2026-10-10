@@ -1,6 +1,6 @@
 [project]
 name = "number-theoretic-transform"
-version = "0.1.0"
+version = "0.1.1"
 description = "FFT over a finite field supporting exact integer convolution when inputs are bounded."
 requires-python = ">=3.10"
 dependencies = []
